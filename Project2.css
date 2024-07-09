@@ -1,6 +1,5 @@
 body {
-    background-color: red;
-    border: 10px solid white ; 
+    background-color: red; 
 }
 
 .First > p {
@@ -35,12 +34,11 @@ body {
     border: 5px solid black;
     margin: 269px;
     border-radius: 5%;
-    display: block;
-    width: px;
+    width: 1000px;
     height: 150px;
-    display: block;
     border-width: ;
-    float: both; 
+    float: both;
+    position: relative; 
 }
 
 
@@ -67,21 +65,20 @@ body {
 }
 
 #Fast{
-    display: block;
     margin: auto;
     margin-top: -25px ;
     margin-left: 400px  ;
     font-size: x-large;
-    float: both;
+    margin: 20rem;
+    position: relative;
+    margin-right: 100px;
 }
 
 a{
-    display: block;
     margin: auto;
     margin-top:  ;
     margin-left: 10px;
     font-size: x-large;
-    float: both;
 }
 
 footer{
@@ -89,12 +86,21 @@ footer{
     border: 3px solid black;
     margin: 1px;
     display: inline-block;
-    margin-left: 65rem;
+    margin-left: 200rem;
     text-align: center;
-    float: both;
 }
 
 
 #deepak{
     margin-right: 10px ;
 }
+
+@media (max-width: 600px) {
+    .First > p, .First > div > p, .second > div > div > p, #click, #Fast, a {
+        font-size: medium;
+        margin: 5px;
+    }
+
+    .second > div {
+        margin: 10px;
+        padding: 10px;
