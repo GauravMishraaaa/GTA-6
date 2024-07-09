@@ -13,7 +13,8 @@ body {
     position: relative;
     margin: 0.5px;
     float: both;
-
+    display: block;
+    width: auto;
 }
 
 
@@ -26,10 +27,13 @@ body {
     text-decoration: dashed underline;
     border-radius: 100px;
     float: both;
-
+    display: block;
+    width: auto;
 }  
 
 .second > div {
+    display: block;
+    width: auto;
     color: blue;
     border: 5px solid black;
     margin: 269px;
@@ -49,6 +53,8 @@ body {
     margin: 50px;
     border-radius: 10px;
     float: both;
+    display: block;
+    width: auto;
 }
 
 #click{
@@ -62,6 +68,8 @@ body {
     margin-top: 40px;
     margin-left: 2rem;
     float: both;
+    display: block;
+    width: auto;
 }
 
 #Fast{
@@ -72,6 +80,7 @@ body {
     margin: 20rem;
     position: relative;
     margin-right: 100px;
+    width: auto;
 }
 
 a{
@@ -84,10 +93,12 @@ a{
 footer{
     color: blanchedalmond;
     border: 3px solid black;
-    margin: 1px;
+    margin: 10px;
     display: inline-block;
-    margin-left: 200rem;
+    margin-left: 10rem;
     text-align: center;
+    width: auto;
+    font-size: x-large;
 }
 
 
